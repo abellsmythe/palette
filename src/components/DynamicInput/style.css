@@ -1,0 +1,71 @@
+.dynamic__input__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+}
+
+.dynamic__input__label {
+    min-height: 32px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.dynamic__input__root {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.dynamic__input__wrapper {
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+
+.dynamic__input__field {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-right: 12px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    font-size: 28px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1;
+    background-color: transparent;
+    appearance: textfield;
+}
+
+.dynamic__input__field.isDisabled {
+    user-select: none;
+    opacity: 0.4;
+}
+
+.dynamic__input__field.isValid {
+
+}
+
+.dynamic__input__field:focus {
+    outline: none;
+}
+
+.dynamic__input__field::-webkit-outer-spin-button,
+.dynamic__input__field::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+.dynamic__input__value {
+    font-size: 40px;
+    font-weight: inherit;
+    line-height: 1;
+    opacity: 0;
+    transform: translateY(236px) scale(0);
+}
